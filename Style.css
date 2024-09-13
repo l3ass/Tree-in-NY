@@ -1,0 +1,107 @@
+body {
+  font-family: "Prompt", sans-serif;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.area {
+  background: linear-gradient(to right, #D2691E , #000000);
+}
+
+.main-block {
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 1750px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mainimage {
+  text-align: center;
+}
+
+.first {
+  height: 500px;
+  width: 1000px;
+}
+
+.mainselector {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 7rem;
+}
+
+.Selector {
+  background-color: #000000;
+  color: #D2691E;
+  margin-left: 20rem;
+  height: 50px;
+  width: 850px;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: 800px;
+  font-style: normal;
+  font-size: 35px;
+  overflow: hidden;
+}
+
+.button-zone {
+  display: column;
+  margin-left: 4rem;
+}
+
+.Selector:hover {
+  background-color: #d87503;
+  color: #000000;
+  margin-left: 20rem;
+  height: 50px;
+  width: 850px;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: 800px;
+  font-style: normal;
+  font-size: 35px;
+  overflow: hidden;
+  cursor: pointer;
+  border: #000000 solid;
+
+}
+
+.button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #000000;
+  color: #D2691E;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 400px;
+  height: 60px;
+  margin-top: 1rem;
+}
+
+.button:active{
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+ .button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.Select-zone-1 {
+  margin-right: 3rem;
+}
